@@ -1,11 +1,11 @@
-About perl-file-pushd
-=====================
+About perl-file-pushd-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/perl-file-pushd-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/dagolden/File-pushd
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/perl-file-pushd-feedstock/blob/main/LICENSE.txt)
 
 Summary: change directory temporarily for a limited scope
 
@@ -13,7 +13,14 @@ Current build status
 ====================
 
 
-<table>
+<table><tr>
+    <td>Travis</td>
+    <td>
+      <a href="https://app.travis-ci.com/conda-forge/perl-file-pushd-feedstock">
+        <img alt="linux" src="https://img.shields.io/travis/com/conda-forge/perl-file-pushd-feedstock/main.svg?label=Linux">
+      </a>
+    </td>
+  </tr>
     
   <tr>
     <td>Azure</td>
@@ -31,6 +38,20 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18509&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/perl-file-pushd-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18509&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/perl-file-pushd-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18509&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/perl-file-pushd-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_" alt="variant">
                 </a>
               </td>
             </tr><tr>
